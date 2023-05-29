@@ -1,0 +1,75 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Portfolio</ion-title>
+    <ion-buttons slot="end">
+      <ion-button routerLink="/contact">
+        Contact
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="no-scroll">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Portfolio</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div id="container">
+
+    <div class="wrapper">
+      <section class="one">
+        <div class="content">
+          <h1>Hey,</h1>
+          <h2>I am Vijay Adithya B K</h2>
+          <p>I'm working as an Application Development Analyst at 
+            <span class="company" id="click-trigger">Accenture</span>
+            <ion-popover trigger="click-trigger" triggerAction="click">
+              <ng-template>                
+                <ion-content class="ion-padding"><i>My work involved me to </i>design, build and configure applications to meet business process and application requirements. Create implementation and integration approaches for applications and their components. Provide primary support for application releases into production, including deployment plan and schedule. Coordinate and fix defects or performance issues within Service Level Agreements. Analyze, design, build, and test new components and enhancements to existing modules.</ion-content>
+              </ng-template>
+            </ion-popover>
+            since September 2021</p>
+        </div>
+      </section>
+      <section class="two">
+        <div class="skills">
+          <h2>I am flexible,</h2>
+          <p>meaning exploring through versatile domains, I have picked up a lot of different skills.</p>
+          <ion-grid>
+            <ion-row>
+              <ion-col *ngFor="let item of items | keyvalue"><ion-icon [name]="'logo-' + item.key" class="skill-icon"></ion-icon></ion-col>
+            </ion-row>
+          </ion-grid>
+        </div>
+      </section>
+      <section class="three">
+        <div class="projects">
+          <h2>My Projects</h2>
+          <p>Built it to learn it. 👨‍💻</p>
+          <ion-accordion-group>
+            <ion-accordion [value]="project"  *ngFor="let project of projects | keyvalue">
+              <ion-item slot="header" color="light">
+                <ion-label>{{ project.key }}</ion-label>
+              </ion-item>
+              <div class="ion-padding" slot="content">
+                {{ project.value }}
+              </div>
+            </ion-accordion>
+          </ion-accordion-group>
+        </div>
+      </section>
+      <section class="four">
+        <div class="education">
+          <h2>Wanna do a background check?</h2>
+          <p>10 th<a href="https://vijayadithyabk.github.io/VijayAdithyaBK/doc/10%20Marks%20Card.pdf" target="_blank"> Jain Public School, 2015-17</a></p>
+          <p>PUC<a href="https://vijayadithyabk.github.io/VijayAdithyaBK/doc/II%20PU%20Marks%20Card.pdf" target="_blank"> Christ PU College Residential, 2015-17</a></p>
+          <p>B.E.<a href="https://vijayadithyabk.github.io/VijayAdithyaBK/doc/engg%20marks%20card.pdf" target="_blank"> Dayananda Sagar Academy of Technology and Management, 2017-21</a></p>
+        </div>
+      </section>
+    </div>
+
+  </div>
+</ion-content>
+

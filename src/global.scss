@@ -1,0 +1,73 @@
+/*
+ * App Global CSS
+ * ----------------------------------------------------------------------------
+ * Put style rules here that you want to apply globally. These styles are for
+ * the entire app and not just one component. Additionally, this file can be
+ * used as an entry point to import other CSS/Sass files to be included in the
+ * output CSS.
+ * For more information on global stylesheets, visit the documentation:
+ * https://ionicframework.com/docs/layout/global-stylesheets
+ */
+
+/* Core CSS required for Ionic components to work properly */
+@import "~@ionic/angular/css/core.css";
+
+/* Basic CSS for apps built with Ionic */
+@import "~@ionic/angular/css/normalize.css";
+@import "~@ionic/angular/css/structure.css";
+@import "~@ionic/angular/css/typography.css";
+@import '~@ionic/angular/css/display.css';
+
+/* Optional CSS utils that can be commented out */
+@import "~@ionic/angular/css/padding.css";
+@import "~@ionic/angular/css/float-elements.css";
+@import "~@ionic/angular/css/text-alignment.css";
+@import "~@ionic/angular/css/text-transformation.css";
+@import "~@ionic/angular/css/flex-utils.css";
+
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body ::-webkit-scrollbar {
+    display: none;
+}
+
+.no-scroll {
+    --overflow: hidden;
+}
+
+h1 {
+    font-size: 300%;
+}
+
+h2 {
+    font-size: 350%;
+}
+
+p {
+    font-family: monospace;
+    font-size: 150%;
+    font-weight: bolder;
+}
+
+a, ion-button {
+    text-decoration: none;
+    color: inherit;
+}
+
+.company {
+    font-weight: bolder;
+    color: #FD1C03;
+}
+
+ion-popover {
+    --background: rgba(40, 173, 218, 0.6);
+    --backdrop-opacity: 0.6;
+    --box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.6);
+    --color: white;
+    --width: 60vh;
+
+    text-align: center;
+    font-size: large;
+}
