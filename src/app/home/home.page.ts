@@ -22,7 +22,7 @@ export class HomePage {
     'Angular Portfolio': {
       description:
         "An elegant and dynamic Angular portfolio website showcasing a creative individual's talent and expertise.",
-      website: 'https://example.com/angular-portfolio',
+      website: 'https://vijayadithyabk.github.io/AngularPortfolio/home',
     },
     'Movie Ticket Booking Website': {
       description:
