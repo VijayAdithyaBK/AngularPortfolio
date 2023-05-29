@@ -59,3 +59,25 @@ ion-accordion div {
   padding: 1.5vh;
   font-size: 300%;
 }
+
+@media only screen and (max-width: 768px) {
+  /* Mobile-specific styles */
+
+  #container {
+    top: 50%;
+  }
+
+  ion-accordion {
+    --min-width: 100%;
+    --max-width: 100%;
+  }
+
+  ion-accordion ion-item,
+  ion-accordion div {
+    --max-width: 100%;
+  }
+
+  .skill-icon {
+    font-size: 200%;
+  }
+}

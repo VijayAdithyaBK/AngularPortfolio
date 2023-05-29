@@ -54,10 +54,11 @@
                 <ion-label>{{ project.key }}</ion-label>
               </ion-item>
               <div class="ion-padding" slot="content">
-                {{ project.value }}
+                {{ project.value.description }}
+                <a class="website-link" href="{{ project.value.website }}" target="_blank">Check it out?</a>
               </div>
             </ion-accordion>
-          </ion-accordion-group>
+          </ion-accordion-group>          
         </div>
       </section>
       <section class="four">
