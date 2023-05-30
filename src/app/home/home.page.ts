@@ -44,20 +44,25 @@ export class HomePage {
         'Unleash your creativity with our website that generates vibrant color palettes on-the-fly. Explore an endless array of random colors and discover inspiring hex codes for your design projects. Spark your imagination with the Colors-Palletes.',
       website: 'https://vijayadithyabk.github.io/Colors-Palletes/',
     },
-    'Movie Ticket Booking Website1': {
+    'Weather App': {
       description:
-        'It lets the customer book movie tickets at their convenience and check their tickets on-line. The administrator can update/add/remove the cinemas in accordance with the movie in the theatres.',
-      website: 'https://example.com/movie-ticket-booking1',
+        'A simple weather app built using Angular.',
+      website: 'https://github.com/VijayAdithyaBK/WeatherApp',
     },
-    'In-Sure1': {
+    'Daily Python': {
       description:
-        'A material-designed website to choose an insurance which they need from the various insurance policies available. They can even claim their insurance from the website by providing the basic details and uploading the required documents.',
-      website: 'https://example.com/in-sure1',
+        'A repo with multiple pyhton projects.',
+      website: 'https://github.com/VijayAdithyaBK/Daily-Python',
     },
-    'Recognition of Human Actions1': {
+    'Voice Notes': {
       description:
-        'Final year project to recognize human actions using Deep Convolutional Neural Networks on two types of data for human action representation - Depth maps and body postures.',
-      website: 'https://example.com/human-actions1',
+        'Using Python Speech Recognition write down notes by dictating.',
+      website: 'https://github.com/VijayAdithyaBK/voice_notes',
+    },
+    'Speech Assistant': {
+      description:
+        'A simple python based Speech Assistant.',
+      website: 'https://github.com/VijayAdithyaBK/voice_notes',
     },
   };
 
