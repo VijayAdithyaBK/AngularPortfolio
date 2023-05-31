@@ -62,7 +62,7 @@ export class HomePage {
     'Speech Assistant': {
       description:
         'A simple python based Speech Assistant.',
-      website: 'https://github.com/VijayAdithyaBK/voice_notes',
+      website: 'https://github.com/VijayAdithyaBK/speech_assistant',
     },
   };
 
